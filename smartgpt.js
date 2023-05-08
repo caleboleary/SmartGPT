@@ -59,6 +59,8 @@ const main = async (prompt) => {
         const timestamp = Date.now();
         const filename = `./output/${timestamp}.txt`;
         const data = [prompt, researcherPrompt, researcherResponse.text, resolverPrompt, resolverResponse.text].join("\n\n");
+        //make output directory 
+        fs.mkdirSync("./output");
         fs.writeFileSync(filename, data);
 
         if (logging) {
