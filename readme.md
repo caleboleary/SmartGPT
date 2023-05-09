@@ -4,7 +4,7 @@ A Node.js script implementation of the SmartGPT prompting system by [AI Explaine
 
 ## Prerequisites
 
-- Node.js installed on your machine. You can download it from [here](https://nodejs.org/en/download/).
+- Node.js (`node >= 18` to support [chatgpt lib](https://www.npmjs.com/package/chatgpt#user-content-install)) installed on your machine. You can download it from [here](https://nodejs.org/en/download/).
 - An OpenAI API key. You can get one by signing up on the [OpenAI platform](https://beta.openai.com/signup/).
 
 ## Installation
